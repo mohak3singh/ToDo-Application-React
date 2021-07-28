@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .main-div{
+    background-color: #34495e;
+  }
+  
+  div{
+    width: 100%;
+    height: 100vh;
+    background: #d35400;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inputcss{
+    position: relative;
+  }
+
+  input{
+    background-color: #fff;
+    position: absolute;
+    top: 10px;
+    width: 250px;
+    padding: 5px 0;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .list-tag{
+      height: 300px;
+      position: absolute;
+      top: 200px;
+      background-color: #dcdde1;
+      overflow-y: scroll;
+      color: black;
+      width: 400px;
+      
+  }
+
+  .all-list{
+    padding: 6px;
+    
+  }
+
+  .head{
+    color: white;
+    text-shadow: 0 2px 2px black;
+  }
+
+  .main-btn{
+    border: 0;
+    color: hsl(88, 100%, 66%);
+    padding: 3px 40px;
+    position: absolute;
+    top: 50px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #1c1d21, #17181c);
+    box-shadow: 2px 2px 2px #101114, 2px 2px 2px #24252a;
+  }
+
+  .list-btn{
+    color: hsl(88, 100%, 66%);
+    border-radius: 50px;
+    position: absolute;
+    cursor: pointer;
+    background: linear-gradient(145deg, #1c1d21, #17181c);
+    box-shadow: 2px 2px 2px #101114, 2px 2px 2px #24252a;
+  }
+
+  .heading2{
+    color: rgb(0, 0, 0);
+    font-family: 'Noto Serif', serif;
+    background: transparent;
+    text-align: center;
+
+    /* text-shadow: 0 2px 2px black; */
+  }
+  
+  
+
+ 
